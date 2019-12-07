@@ -1,6 +1,6 @@
-# 网易云音乐 API
+# Uniapp Music API
 
-> 网易云音乐 NodeJS 版 API
+> Uniapp Music NodeJS 版 API
 
 - 全部接口已升级到最新
 - 具备登录接口,多达100多个接口

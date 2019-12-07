@@ -1,6 +1,6 @@
 # NeteaseCloudMusicApi
 
-网易云音乐 NodeJS 版 API
+Uniapp Music NodeJS 版 API
 
 ## 灵感来自
 
@@ -342,7 +342,7 @@ Cookies
 
 ### 注册(修改密码)
 
-说明 : 调用此接口 ,传入手机号码和验证码,密码,昵称, 可注册网易云音乐账号(同时可修改密码)
+说明 : 调用此接口 ,传入手机号码和验证码,密码,昵称, 可注册Uniapp Music账号(同时可修改密码)
 
 **必选参数 :** 
 

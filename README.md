@@ -1,6 +1,6 @@
-# 网易云音乐 API
+# Uniapp Music API
 
-网易云音乐 Node.js API service
+Uniapp Music Node.js API service
 
 <p>
 <a href="https://www.npmjs.com/package/NeteaseCloudMusicApi"><img src="https://img.shields.io/npm/v/NeteaseCloudMusicApi.svg" alt="Version"></a>
@@ -10,16 +10,7 @@
 <a href="https://codeclimate.com/github/Binaryify/NeteaseCloudMusicApi"><img src="https://codeclimate.com/github/Binaryify/NeteaseCloudMusicApi/badges/gpa.svg" /></a>
 </p>
 
-## 灵感来自
-
-[disoul/electron-cloud-music](https://github.com/disoul/electron-cloud-music)
-
-[darknessomi/musicbox](https://github.com/darknessomi/musicbox)
-
-[sqaiyan/netmusic-node](https://github.com/sqaiyan/netmusic-node)
-
 ## 功能特性
-
 
 1. 登录
 2. 刷新登录
@@ -163,7 +154,7 @@
 ## 安装
 
 ```shell
-$ git clone git@github.com:Binaryify/NeteaseCloudMusicApi.git
+$ git clone https://github.com/front-end-class/uniapp-music-back-code.git
 $ npm install
 ```
 
@@ -187,13 +178,7 @@ $ set PORT=4000 && node app.js
 
 ## 使用文档
 
-[文档地址](https://binaryify.github.io/NeteaseCloudMusicApi)
-
-![文档](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/static/docs.png)
-
-## 更新日志
-
-[changelog](https://github.com/Binaryify/NeteaseCloudMusicApi/blob/master/CHANGELOG.MD)
+[文档地址](https://front-end-class.github.io/uniapp-music-back-code/)
 
 ## 单元测试
 
@@ -204,10 +189,7 @@ $ npm test
 ![单元测试](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/static/screenshot1.png)
 ![单元测试](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/static/screenshot2.png)
 
-## 贡献者
-![](https://opencollective.com/NeteaseCloudMusicApi/contributors.svg?width=890)
-
 
 ## License
 
-[The MIT License (MIT)](https://github.com/Binaryify/NeteaseCloudMusicApi/blob/master/LICENSE)
+[The MIT License (MIT)](https://github.com/front-end-class/uniapp-music-back-code/blob/master/LICENSE)

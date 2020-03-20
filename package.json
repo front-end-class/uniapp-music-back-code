@@ -13,8 +13,7 @@
     "Uniapp Music nodejs"
   ],
   "husky": {
-    "hooks": {
-    }
+    "hooks": {}
   },
   "lint-staged": {
     "*.js": [
@@ -26,6 +25,7 @@
   "license": "MIT",
   "dependencies": {
     "apicache": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "pac-proxy-agent": "^3.0.0",
     "request": "^2.88.0"

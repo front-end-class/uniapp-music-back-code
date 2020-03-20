@@ -6,8 +6,8 @@ const request = require('./util/request')
 const packageJSON = require('./package.json')
 const exec = require('child_process').exec
 const cache = require('apicache').middleware
-
-// version check
+const cors = require('cors')
+    // version check
 exec('npm info NeteaseCloudMusicApi version', (err, stdout, stderr) => {
     if (!err) {
         let version = stdout.trim()
@@ -18,6 +18,7 @@ exec('npm info NeteaseCloudMusicApi version', (err, stdout, stderr) => {
 })
 
 const app = express()
+app.use(cors())
 
 // CORS & Preflight request
 app.use((req, res, next) => {
